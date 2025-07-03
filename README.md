@@ -6,7 +6,7 @@ this site is live at: [https://anushaladha04.github.io](https://anushaladha04.gi
 
 ## about me
 
-i’m a second-year CSE student at UCLA with a passion for utilizing accessible technology to tackle real-world challenges – particularly those centered around social & environmental impact. 
+i’m a second-year CSE student at UCLA with a passion for utilizing accessible technology to tackle real-world challenges – particularly those centered around social & environmental impact.
 
 ## say hi
 

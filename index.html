@@ -2,88 +2,98 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anusha Ladha | Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700|Montserrat:400,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <div id="particles-js"></div>
-  <header>
-    <div class="contact">
-      <span>Email: anushaladha4@g.ucla.edu</span>
-      <span>LinkedIn: <a href="https://linkedin.com/in/anushaladha" target="_blank">anushaladha</a></span>
-      <span>GitHub: <a href="https://github.com/anushaladha04" target="_blank">anushaladha04</a></span>
-    </div>
-    <h1>Anusha Ladha</h1>
-    <h2>UCLA Computer Science & Engineering Student</h2>
-    <p class="tagline">Curious. Creative. Code-loving. Always learning.</p>
-  </header>
   <main>
+    <section class="hero">
+      <div class="avatar">AL</div>
+      <h1>Anusha Ladha</h1>
+      <h2>UCLA Computer Science Student</h2>
+      <p class="bio">Hi! I'm Anusha Ladha, a second-year CSE student at UCLA with a passion for utilizing accessible technology to tackle real-world challenges – particularly those centered around social & environmental impact.</p>
+      <div class="contact-links">
+        <a href="https://github.com/anushaladha04" target="_blank" class="btn"><span>🐙</span> GitHub</a>
+        <a href="mailto:anushaladha4@g.ucla.edu" class="btn"><span>✉️</span> Email</a>
+        <a href="https://www.linkedin.com/in/anusha-ladha/" target="_blank" class="btn"><span>🔗</span> LinkedIn</a>
+      </div>
+    </section>
     <section class="timeline-section">
-      <h2>Experience Timeline</h2>
+      <h2 class="timeline-title">Experience Timeline</h2>
       <div class="timeline">
         <div class="timeline-item">
-          <div class="timeline-date">Apr 2025 – Present</div>
+          <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <h3>DI CARLO LAB @ UCLA</h3>
-            <p>Undergraduate Researcher</p>
-            <ul>
-              <li>Built an internal lab website and chatbot to streamline access to lab manuals and protocols</li>
-              <li>Developed memory-enabled LLM assistant using LangChain and ChromaDB for dynamic, lab-specific queries</li>
-            </ul>
+            <div class="timeline-header">
+              <h3>Developer, Nova for Good</h3>
+            </div>
+            <div class="timeline-meta">
+              <span class="timeline-date">Sept 2024 – Present</span>
+              <span class="timeline-location">Los Angeles, CA</span>
+            </div>
+            <p>Partnered with LA Waterkeeper to design and build a website highlighting water safety and advocacy efforts in LA County. Developed frontend for Rate My Plate, a buildathon project for rating UCLA dining hall food.</p>
+            <div class="tags">
+              <span>Next.js</span><span>TypeScript</span><span>Tailwind CSS</span><span>Web Dev</span>
+            </div>
           </div>
         </div>
         <div class="timeline-item">
-          <div class="timeline-date">Sept 2024 – Present</div>
+          <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <h3>NOVA FOR GOOD</h3>
-            <p>Developer</p>
-            <ul>
-              <li>Partnered with LA Waterkeeper to design and build a website highlighting water advocacy</li>
-              <li>Developed frontend for Rate My Plate, a buildathon project for rating UCLA dining hall food</li>
-            </ul>
+            <div class="timeline-header">
+              <h3>Undergraduate Researcher, Di Carlo Lab @ UCLA</h3>
+            </div>
+            <div class="timeline-meta">
+              <span class="timeline-date">April 2025 – Present</span>
+              <span class="timeline-location">Los Angeles, CA</span>
+            </div>
+            <p>Built an internal lab website and chatbot to streamline access to lab manuals and protocols. Developed memory-enabled LLM assistant using LangChain and ChromaDB for dynamic, lab-specific queries.</p>
+            <div class="tags">
+              <span>LangChain</span><span>ChromaDB</span><span>Python</span><span>Web Dev</span>
+            </div>
           </div>
         </div>
         <div class="timeline-item">
-          <div class="timeline-date">Aug 2023 – Sept 2024</div>
+          <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <h3>AIR QUALITY MODELING & EXPOSURE LAB @ UC BERKELEY</h3>
-            <p>Paid Research Intern</p>
-            <ul>
-              <li>Coordinated with city officials to set up 25 Clarity nodes monitoring pollution in SF Bay</li>
-              <li>Programmed air quality linear regression models to find correlation between air quality and demographic variables</li>
-            </ul>
+            <div class="timeline-header">
+              <h3>Frontend Developer & Licensing Lead, Clothesline UCLA</h3>
+            </div>
+            <div class="timeline-meta">
+              <span class="timeline-date">Sept 2024 – June 2025</span>
+              <span class="timeline-location">Los Angeles, CA</span>
+            </div>
+            <p>Built an iOS app using Flutter for UCLA students to trade and borrow clothes, with a focus on sustainability and accessibility. Developed dynamic React components for listings, filter functionality, and profile views.</p>
+            <div class="tags">
+              <span>Flutter</span><span>React</span><span>TypeScript</span><span>iOS</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Backend Developer, Agewell Bruins - AI Geriatric Virtual Assistant</h3>
+            </div>
+            <div class="timeline-meta">
+              <span class="timeline-date">April 2025 – Present</span>
+              <span class="timeline-location">Los Angeles, CA</span>
+            </div>
+            <p>Engineered backend logic to persist recognized speech messages after each mic session, enabling dynamic, context-aware assistant responses for older users.</p>
+            <div class="tags">
+              <span>Python</span><span>AI</span><span>Backend</span>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="skills-section">
-      <h2>Technical Skills</h2>
-      <p>
-        <strong>Languages:</strong> Python, Java, C++, JS, TypeScript, HTML/CSS<br>
-        <strong>Frameworks & Libraries:</strong> React, Next.js, Flutter, Firebase, Flask, Langchain<br>
-        <strong>Tools & Technologies:</strong> Git, Figma
-      </p>
-    </section>
-    <section class="projects-section">
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <strong>Clothesline UCLA</strong> – Frontend Developer & Licensing Lead<br>
-          <span>Built a iOS app using Flutter for UCLA students to trade and borrow clothes, with a focus on sustainability and accessibility.</span>
-        </li>
-        <li>
-          <strong>LA Waterkeeper x NOVA</strong> – Frontend Developer<br>
-          <span>Built a fully scrollable informational site to educate the public on the LA River using Next.js, TypeScript, and Tailwind CSS.</span>
-        </li>
-        <li>
-          <strong>Agewell Bruins - AI Geriatric Virtual Assistant</strong> – Backend Developer<br>
-          <span>Engineered backend logic to persist recognized speech messages after each mic session, enabling dynamic, context-aware assistant responses.</span>
-        </li>
-      </ul>
-    </section>
   </main>
-  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="particles.js"></script>
   <script>
     particlesJS.load('particles-js', 'particles.json', function() {
       console.log('particles.js loaded - callback');
