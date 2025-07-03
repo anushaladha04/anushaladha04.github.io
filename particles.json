@@ -14,7 +14,7 @@
         "type": "circle"
       },
       "opacity": {
-        "value": 0.85
+        "value": 0.65
       },
       "size": {
         "value": 5
@@ -23,12 +23,12 @@
         "enable": true,
         "distance": 150,
         "color": "#3a4664",
-        "opacity": 0.6,
-        "width": 2
+        "opacity": 0.4,
+        "width": 1.5
       },
       "move": {
         "enable": true,
-        "speed": 3
+        "speed": 4
       }
     },
     "interactivity": {
